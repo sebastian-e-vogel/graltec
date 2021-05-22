@@ -5,7 +5,7 @@ const Header = ({}) => {
   return (
     <Flex as="nav" align="center" justify="space-between" wrap="wrap" bg="primary" color="white">
       <Box align="center" flex={0.3}>
-        <Text letterSpacing={'tighter'} bg="gray" flex={1} pt={6} pb={6}>
+        <Text letterSpacing={'tighter'} bg="white" color="primary" flex={1} pt={6} pb={6}>
           Graltec
         </Text>
       </Box>
