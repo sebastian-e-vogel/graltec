@@ -7,15 +7,15 @@ import { Box, Flex, Text } from '@chakra-ui/react'
 const LandingPage = () => (
   <>
     <Seo title="Home" />
-    <Flex align="center" justify="space-between" bg="primary" color="white">
+    <Flex bg="primary" color="white">
       <Box position="relative" maxHeight={589}>
         <StaticImage
           src="../images/bg.png"
           quality={95}
           formats={['AUTO', 'WEBP', 'AVIF']}
-          alt="A Gatsby astronaut"
+          alt="A metallic curtains"
         />
-        <Box flex={1} color="white" position="absolute" top="25%" right={'-20%'} display="flex">
+        <Box color="white" position="absolute" top="25%" right={'-20%'}>
           <Box w="55px" bg="primary" opacity={0.6} boxShadow="-5px 0px 20px #000000" />
           <Box
             bg="white"
@@ -26,7 +26,6 @@ const LandingPage = () => (
             display="flex"
             justifyContent="center"
             flexDir="column"
-            position="relative"
             p={12}
           >
             <Text lineHeight="40px">Fábrica de cortinas</Text>
