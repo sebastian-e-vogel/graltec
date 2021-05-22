@@ -15,7 +15,7 @@ const LandingPage = () => (
           formats={['AUTO', 'WEBP', 'AVIF']}
           alt="A metallic curtains"
         />
-        <Box color="white" position="absolute" top="25%" right={'-20%'}>
+        <Box color="white" position="absolute" top="25%" right={'-20%'} display="flex">
           <Box w="55px" bg="primary" opacity={0.6} boxShadow="-5px 0px 20px #000000" />
           <Box
             bg="white"
