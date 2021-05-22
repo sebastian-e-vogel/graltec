@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import { Button } from "@chakra-ui/react"
+import { Text } from "@chakra-ui/react"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -8,7 +10,10 @@ import Seo from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
+    <Button background="primary">Button</Button> <h1>Hi people</h1>
+    <Text fontSize="md" fontFamily="body" color="tomato">
+      I'm using a custom font-size value for this text
+    </Text>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
     <StaticImage
