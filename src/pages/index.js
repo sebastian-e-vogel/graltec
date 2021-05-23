@@ -5,6 +5,7 @@ import { Flex } from '@chakra-ui/react'
 import FirstSection from './FirstSection'
 import EnginesSection from './EnginesSection'
 import CurtainsSection from './CurtainsSection'
+import ServicesSection from './ServicesSection'
 
 const LandingPage = () => (
   <>
@@ -13,6 +14,7 @@ const LandingPage = () => (
       <FirstSection />
       <EnginesSection />
       <CurtainsSection />
+      <ServicesSection />
     </Flex>
   </>
 )
