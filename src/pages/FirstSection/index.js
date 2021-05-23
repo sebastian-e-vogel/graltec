@@ -7,7 +7,7 @@ const FirstSection = () => (
   <Flex>
     <Box position="relative" maxHeight={589}>
       <StaticImage
-        src="../images/bg.png"
+        src="../../images/bg.png"
         quality={95}
         formats={['AUTO', 'WEBP', 'AVIF']}
         alt="A metallic curtains"
