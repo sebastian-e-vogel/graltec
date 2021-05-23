@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Box, Text, Stack, HStack, Flex } from '@chakra-ui/react'
+import { Box, Text, Stack, Flex } from '@chakra-ui/react'
 
 const AccessoriesSection = () => (
   <Box bg="white">
