@@ -7,6 +7,7 @@ import EnginesSection from './EnginesSection'
 import CurtainsSection from './CurtainsSection'
 import ServicesSection from './ServicesSection'
 import AccessoriesSection from './AccessoriesSection'
+import ContactSection from './ContactSection'
 
 const LandingPage = () => (
   <>
@@ -17,6 +18,7 @@ const LandingPage = () => (
       <CurtainsSection />
       <ServicesSection />
       <AccessoriesSection />
+      <ContactSection />
     </Flex>
   </>
 )
